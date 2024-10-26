@@ -55,6 +55,3 @@ params:
   editURL:
     enable: false
     base: "https://github.com/adambarbato/adambarbato.github.io"
-
-  meta:
-    favicon: true
