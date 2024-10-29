@@ -22,8 +22,9 @@ menu:
     - name: About
       pageRef: /
       weight: 1
-    - name: Docs
-      pageRef: /docs
+    - name: Blog
+      identifier: blog
+      pageRef: /blog
       weight: 2
     - name: Contact ↗
       url: "mailto:adambbarbato@gmail.com"
@@ -55,3 +56,21 @@ params:
   editURL:
     enable: false
     base: "https://github.com/adambarbato/adambarbato.github.io"
+
+  search:
+  enable: true
+  type: flexsearch
+
+  flexsearch:
+    # index page by: content | summary | heading | title
+    index: content
+    # full | forward | reverse | strict
+    # https://github.com/nextapps-de/flexsearch/#tokenizer-prefix-search
+    tokenize: forward
+
+  blog:
+    list:
+      displayTags: true
+      # date | lastmod | publishDate | title | weight
+      sortBy: date
+      sortOrder: desc # or "asc"

@@ -1,23 +1,8 @@
 ---
-title: My Site
+title: Hello!
 toc: false
 ---
 
-This is the landing page.
-
 {{< figure src="AdamProfilePic.png" width="350" >}}
 
-## Explore
-
-{{< cards >}}
-  {{< card link="docs" title="Docs" icon="book-open" >}}
-  {{< card link="about" title="About" icon="user" >}}
-{{< /cards >}}
-
-
-
-
-
-## Documentation
-
-For more information, visit [Hextra](https://imfing.github.io/hextra).
+I'm Adam Barbato, a software engineer, manager, and occasional writer. Keep up with me here on [my blog]({{< ref "/blog" >}}) or on my [LinkedIn](https://linkedin.com/in/adambarbato) or [GitHub](https://github.com/adambarbato).
