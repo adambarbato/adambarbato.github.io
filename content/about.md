@@ -4,7 +4,7 @@ type: about
 draft: true
 ---
 
-This is the about page.
+This is the about page. [^1]
 
 ## Explore
 
@@ -13,10 +13,8 @@ This is the about page.
   {{< card link="about" title="About" icon="user" >}}
 {{< /cards >}}
 
-
-
-
-
 ## Documentation
 
 For more information, visit [Hextra](https://imfing.github.io/hextra).
+
+[^1]: footnote test
